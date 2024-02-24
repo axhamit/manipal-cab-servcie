@@ -1,23 +1,24 @@
-import { Link } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 
-import { IconChevronRight, IconCircleCheck } from '@tabler/icons-react';
+import { IconChevronRight, IconCircleCheck } from "@tabler/icons-react";
 
-import BgShape from '../images/hero/hero-bg.png';
-import HeroCar from '../images/hero/hero-image.png';
+import BgShape from "../images/hero/hero-bg.png";
+import HeroCar from "../images/hero/hero-image.png";
 
 const Hero: React.FC = () => {
   const [goUp, setGoUp] = useState<boolean>(false);
 
   const scrollToTop = (): void => {
-    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
 
   const bookBtn = (): void => {
-    const bookingSection = document.querySelector<HTMLElement>('#booking-section');
+    const bookingSection =
+      document.querySelector<HTMLElement>("#booking-section");
 
     if (bookingSection) {
-      bookingSection.scrollIntoView({ behavior: 'smooth' });
+      bookingSection.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -29,32 +30,40 @@ const Hero: React.FC = () => {
         setGoUp(false);
       }
     };
-    window.addEventListener('scroll', onPageScroll);
+    window.addEventListener("scroll", onPageScroll);
 
     return () => {
-      window.removeEventListener('scroll', onPageScroll);
+      window.removeEventListener("scroll", onPageScroll);
     };
   }, []);
 
   return (
-    <section id='home' className='hero-section'>
-      <div className='container'>
-        <img className='bg-shape' src={BgShape} alt='' />
-        <div className='hero-content'>
-          <div className='hero-content__text'>
-            <h4>Os melhores preços e condições</h4>
+    <section id="home" className="hero-section">
+      <div className="container">
+        <img className="bg-shape" src={BgShape} alt="" />
+        <div className="hero-content">
+          <div className="hero-content__text">
+            <h4>The best prices and conditions</h4>
             <h1>
-              Reserve seu carro na <span>Aluga Fácil</span>.
+              Book your car at <span>cab Service Manipal</span>
             </h1>
             <p>
-              Oferecemos uma frota diversificada, desde econômicos até SUVs luxuosos. Sua jornada
-              começa aqui - reserve agora e explore o mundo ao seu próprio ritmo.
+             We offer a diverse fleet, from economical to luxurious SUVs.
+              Your journey starts here - book now and explore the world at your
+              own pace.
             </p>
-            <div className='hero-content__text__btns'>
-              <Link onClick={bookBtn} className='hero-content__text__btns__book-ride' to='/'>
+            <div className="hero-content__text__btns">
+              <Link
+                onClick={bookBtn}
+                className="hero-content__text__btns__book-ride"
+                to="/"
+              >
                 Alugue Agora &nbsp; <IconCircleCheck />
               </Link>
-              <Link className='hero-content__text__btns__learn-more' to='/about'>
+              <Link
+                className="hero-content__text__btns__learn-more"
+                to="/about"
+              >
                 Saiba Mais &nbsp; <IconChevronRight />
               </Link>
             </div>
@@ -63,14 +72,17 @@ const Hero: React.FC = () => {
           {/* right side img */}
           <img
             src={HeroCar}
-            alt='carro da marca fiat modelo onix cor azul'
-            className='hero-content__car-img'
+            alt="carro da marca fiat modelo onix cor azul"
+            className="hero-content__car-img"
           />
         </div>
       </div>
 
       {/* page up */}
-      <div onClick={scrollToTop} className={`scroll-up ${goUp ? 'show-scroll' : ''}`}>
+      <div
+        onClick={scrollToTop}
+        className={`scroll-up ${goUp ? "show-scroll" : ""}`}
+      >
         ^
       </div>
     </section>
