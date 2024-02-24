@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { IconMenu2, IconX, IconUser } from '@tabler/icons-react';
-import Logo from '../images/logo/logo.png';
+// import Logo from '../images/logo/logo.png';
 
 const Navbar: React.FC = () => {
   const [nav, setNav] = useState<boolean>(false);
@@ -39,12 +39,12 @@ const Navbar: React.FC = () => {
             </li>
             <li>
               <Link onClick={openNav} to='/'>
-                Início
+                Home
               </Link>
             </li>
             <li>
               <Link onClick={openNav} to='/about'>
-                Sobre Nós
+                About Us
               </Link>
             </li>
             <li>
@@ -74,47 +74,47 @@ const Navbar: React.FC = () => {
         <div className='navbar'>
           <div className='navbar__img'>
             <Link to='/' onClick={() => window.scrollTo(0, 0)}>
-              <img src={Logo} alt='logo-img' />
+              {/* <img src={Logo} alt='logo-img' /> */}
             </Link>
           </div>
           <ul className='navbar__links'>
             <li>
               <Link className='home-link' to='/'>
-                Início
+                Home
               </Link>
             </li>
             <li>
               <Link className='about-link' to='/about'>
-                Sobre Nós
+                About Us
               </Link>
             </li>
             <li>
               <Link className='models-link' to='/models'>
-                Carros
+                cars
               </Link>
             </li>
             <li>
               <Link className='testi-link' to='/testimonials'>
-                Testemunhas
+              Witnesses
               </Link>
             </li>
             <li>
               <Link className='team-link' to='/team'>
-                Equipe
+                Team
               </Link>
             </li>
             <li>
               <Link className='contact-link' to='/contact'>
-                Contato
+                Contact
               </Link>
             </li>
           </ul>
           <div className='navbar__buttons'>
             <Link className='navbar__buttons__sign-in' to='/'>
-              Entrar
+              Enter
             </Link>
             <Link className='navbar__buttons__register' to='/'>
-              Registrar
+              Register
             </Link>
           </div>
 
