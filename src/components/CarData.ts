@@ -1,8 +1,8 @@
-import ToyotaCamry from '../images/cars/toyota-camry-hybrid.png';
-import ToyotaHilux from '../images/cars/toyota-hilux.png';
-import BmwX4 from '../images/cars/bmw-x4.png';
-import BmwX5 from '../images/cars/bmw-x5.png';
-import ChevroletOnix from '../images/cars/chevrolet-onix.png';
+import ToyotaCamry from '../images/hero/etos.png';
+import ToyotaHilux from '../images/cars/innova.png';
+import BmwX4 from '../images/cars/Crysta-1.png';
+import BmwX5 from '../images/cars/swift.png';
+import ChevroletOnix from '../images/cars/Traveller.png';
 import CheroletSpin from '../images/cars/chevrolet-spin.png';
 import FiatMobi from '../images/cars/fiat-mobi.png';
 import FiatUno from '../images/cars/fiat-uno.png';
@@ -25,71 +25,71 @@ interface Car {
 export const CAR_DATA: Car[][] = [
   [
     {
-      name: 'Toyota Camry Hybrid',
-      price: '130',
+      name: 'Toyota ETIOS',
+      price: '13',
       img: ToyotaCamry,
-      model: 'Camry Hybrid',
+      model: ' ETIOS',
       mark: 'Toyota',
       year: '2020',
       doors: '4',
-      air: 'Sim',
-      transmission: 'Automático',
+      air: 'Yes',
+      transmission: 'Manual',
       fuel: 'Híbrido',
     },
   ],
   [
     {
-      name: 'Toyota Hilux',
-      price: '180',
+      name: 'Toyota Innova',
+      price: '17',
       img: ToyotaHilux,
-      model: 'Hilux',
+      model: 'Innova',
       mark: 'Toyota',
       year: '2021',
       doors: '4',
-      air: 'Sim',
+      air: 'Yes',
       transmission: 'Manual',
-      fuel: 'Gasolina',
+      fuel: '',
     },
   ],
   [
     {
-      name: 'BMW X4 M40i',
-      price: '220',
+      name: 'Toyota Innova Crysta',
+      price: '18',
       img: BmwX4,
-      model: 'X4',
-      mark: 'BMW',
-      year: '2019',
+      model: 'Crysta',
+      mark: 'Innova',
+      year: '2018',
       doors: '4',
-      air: 'Sim',
-      transmission: 'Automático',
+      air: 'Yes',
+      transmission: 'Manual',
       fuel: 'Flex',
     },
   ],
   [
     {
-      name: 'BMW X5 Conversivel',
-      price: '250',
+      name: 'Maruti Suzuki Swift',
+      price: '13',
       img: BmwX5,
-      model: 'X5',
-      mark: 'BMW',
+      model: 'Swift',
+      mark: 'Maruti Suzuki ',
       year: '2020',
-      doors: '2',
-      air: 'Sim',
-      transmission: 'Automático',
+      doors: '4',
+      air: 'Yes',
+      transmission: 'Manual',
       fuel: 'Flex',
     },
   ],
   [
     {
-      name: 'Chevrolet Onix',
-      price: '140',
+      name: 'Tempo Trveller',
+      price: '24',
       img: ChevroletOnix,
       model: 'Onix',
-      mark: 'Chevrolet',
+      mark: 'FORCE',
       year: '2019',
-      doors: '4',
+      doors: '2',
       air: 'Sim',
-      transmission: 'Automático',
+      transmission: 'Manul',
       fuel: 'Flex',
     },
   ],

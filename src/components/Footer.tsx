@@ -7,14 +7,14 @@ const Footer: React.FC = () => {
         <div className='footer-content'>
           <ul className='footer-content__1'>
             <li>
-              <span>Aluga Fácil</span>
+              <span>CAB SERVICE MANIPAL</span>
             </li>
             <li>
-              Nós temos uma grande variedade de veículos para atender a todas as suas necessidades.
+            We have a wide variety of vehicles to meet all your needs.
             </li>
             <li>
-              <a href='tel:123456789'>
-                <IconPhoneCall /> &nbsp; (123) 456-789
+              <a href='tel:+918105803440'>
+                <IconPhoneCall /> &nbsp; +918105803440
               </a>
             </li>
 

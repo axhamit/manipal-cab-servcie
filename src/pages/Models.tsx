@@ -4,7 +4,7 @@ import { Footer, HeroPages } from '../components';
 
 import { IconCar, IconPhone, IconStar } from '@tabler/icons-react';
 
-import ToyotaCamry from '../images/cars/toyota-camry-hybrid.png';
+import ToyotaCamry from '../images/hero/etos.png';
 import ToyotaHilux from '../images/cars/toyota-hilux.png';
 import BmwX4 from '../images/cars/bmw-x4.png';
 import BmwX5 from '../images/cars/bmw-x5.png';
@@ -28,7 +28,7 @@ const Models: React.FC = () => {
               <div className='models-div__box__descr'>
                 <div className='models-div__box__descr__name-price'>
                   <div className='models-div__box__descr__name-price__name'>
-                    <p>Camry Hybrid</p>
+                    <p> ETIOS</p>
                     <span>
                       <IconStar width={15} height={15} />
                       <IconStar width={15} height={15} />
@@ -38,8 +38,8 @@ const Models: React.FC = () => {
                     </span>
                   </div>
                   <div className='models-div__box__descr__name-price__price'>
-                    <h4>R$130</h4>
-                    <p>por dia</p>
+                    <h4>₹ 13</h4>
+                    <p>per Km</p>
                   </div>
                 </div>
                 <div className='models-div__box__descr__name-price__details'>
@@ -83,7 +83,7 @@ const Models: React.FC = () => {
                   </div>
                   <div className='models-div__box__descr__name-price__price'>
                     <h4>R$180</h4>
-                    <p>por dia</p>
+                    <p>per Km</p>
                   </div>
                 </div>
                 <div className='models-div__box__descr__name-price__details'>
@@ -127,7 +127,7 @@ const Models: React.FC = () => {
                   </div>
                   <div className='models-div__box__descr__name-price__price'>
                     <h4>R$220</h4>
-                    <p>por dia</p>
+                    <p>per Km</p>
                   </div>
                 </div>
                 <div className='models-div__box__descr__name-price__details'>
@@ -171,7 +171,7 @@ const Models: React.FC = () => {
                   </div>
                   <div className='models-div__box__descr__name-price__price'>
                     <h4>R$250</h4>
-                    <p>por dia</p>
+                    <p>per Km</p>
                   </div>
                 </div>
                 <div className='models-div__box__descr__name-price__details'>
@@ -215,7 +215,7 @@ const Models: React.FC = () => {
                   </div>
                   <div className='models-div__box__descr__name-price__price'>
                     <h4>R$140</h4>
-                    <p>por dia</p>
+                    <p>per Km</p>
                   </div>
                 </div>
                 <div className='models-div__box__descr__name-price__details'>
@@ -259,7 +259,7 @@ const Models: React.FC = () => {
                   </div>
                   <div className='models-div__box__descr__name-price__price'>
                     <h4>R$140</h4>
-                    <p>por dia</p>
+                    <p>per Km</p>
                   </div>
                 </div>
                 <div className='models-div__box__descr__name-price__details'>
@@ -303,7 +303,7 @@ const Models: React.FC = () => {
                   </div>
                   <div className='models-div__box__descr__name-price__price'>
                     <h4>R$110</h4>
-                    <p>por dia</p>
+                    <p>per Km</p>
                   </div>
                 </div>
                 <div className='models-div__box__descr__name-price__details'>
@@ -347,7 +347,7 @@ const Models: React.FC = () => {
                   </div>
                   <div className='models-div__box__descr__name-price__price'>
                     <h4>R$100</h4>
-                    <p>por dia</p>
+                    <p>per Km</p>
                   </div>
                 </div>
                 <div className='models-div__box__descr__name-price__details'>
@@ -391,7 +391,7 @@ const Models: React.FC = () => {
                   </div>
                   <div className='models-div__box__descr__name-price__price'>
                     <h4>R$150</h4>
-                    <p>por dia</p>
+                    <p>per Km</p>
                   </div>
                 </div>
                 <div className='models-div__box__descr__name-price__details'>
@@ -435,7 +435,7 @@ const Models: React.FC = () => {
                   </div>
                   <div className='models-div__box__descr__name-price__price'>
                     <h4>R$160</h4>
-                    <p>por dia</p>
+                    <p>per Km</p>
                   </div>
                 </div>
                 <div className='models-div__box__descr__name-price__details'>

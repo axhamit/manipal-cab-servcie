@@ -8,32 +8,34 @@ const PlanTrip: React.FC = () => {
       <div className='container'>
         <div className='plan-container'>
           <div className='plan-container__title'>
-            <h3>Alugue rápido e sem buroracia</h3>
-            <h2>Como funciona?</h2>
+            <h3>Rent quickly and without bureaucracy</h3>
+            <h2>How does it work?</h2>
           </div>
 
           <div className='plan-container__boxes'>
             <div className='plan-container__boxes__box'>
               <img src={SelectCar} alt='' />
-              <h3>Escolha um carro</h3>
+              <h3>Choose a car</h3>
               <p>
-                Oferecemos uma grande variedade de veículos para todas as suas necessidades de
-                condução. Temos o carro perfeito para atender às suas necessidades.
+              We offer a wide variety of vehicles for all your driving needs. We have the perfect car to meet your needs.
+
+
               </p>
             </div>
 
             <div className='plan-container__boxes__box'>
               <img src={Contact} alt='' />
-              <h3>Preencha o formulário</h3>
-              <p>Nosso time irá entrar em contato com voce para confirmar o seu pedido.</p>
+              <h3>Call The Driver</h3>
+              <p>Our team will contact you to confirm your order.</p>
             </div>
 
             <div className='plan-container__boxes__box'>
               <img src={Drive} alt='' />
-              <h3>Saia dirigindo!</h3>
+              <h3>Enjoy Your Trip</h3>
               <p>
-                Agora você pode partir e aproveitar o conforto da sua viagem. Nós temos o que você
-                precisa com nossa ampla variedade de carros.
+              Now you can leave and enjoy the comfort of your trip. We've got you covered with our wide range of cars.
+
+
               </p>
             </div>
           </div>

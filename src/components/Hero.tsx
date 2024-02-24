@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { IconChevronRight, IconCircleCheck } from "@tabler/icons-react";
 
 import BgShape from "../images/hero/hero-bg.png";
-import HeroCar from "../images/hero/hero-image.png";
+import HeroCar from "../images/hero/etos.png";
 
 const Hero: React.FC = () => {
   const [goUp, setGoUp] = useState<boolean>(false);
@@ -14,12 +14,15 @@ const Hero: React.FC = () => {
   };
 
   const bookBtn = (): void => {
-    const bookingSection =
-      document.querySelector<HTMLElement>("#booking-section");
+    // Use your WhatsApp number and message
+    const phoneNumber = '8105803440'; // Replace with your WhatsApp number
+    const message = 'Hello, I am interested in booking a Car.';
 
-    if (bookingSection) {
-      bookingSection.scrollIntoView({ behavior: "smooth" });
-    }
+    // Create the WhatsApp API link
+    const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+    // Open the link in a new tab/window
+    window.open(whatsappLink, '_blank');
   };
 
   useEffect(() => {
@@ -45,7 +48,7 @@ const Hero: React.FC = () => {
           <div className="hero-content__text">
             <h4>The best prices and conditions</h4>
             <h1>
-              Book your car at <span>cab Service Manipal</span>
+              Book your car at <span>CAB SERVICE MANIPAL</span>
             </h1>
             <p>
              We offer a diverse fleet, from economical to luxurious SUVs.
@@ -58,13 +61,13 @@ const Hero: React.FC = () => {
                 className="hero-content__text__btns__book-ride"
                 to="/"
               >
-                Alugue Agora &nbsp; <IconCircleCheck />
+                Enquire Now &nbsp; <IconCircleCheck />
               </Link>
               <Link
                 className="hero-content__text__btns__learn-more"
                 to="/about"
               >
-                Saiba Mais &nbsp; <IconChevronRight />
+                Know More &nbsp; <IconChevronRight />
               </Link>
             </div>
           </div>
