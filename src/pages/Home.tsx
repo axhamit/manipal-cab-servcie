@@ -7,7 +7,7 @@ import {
   ChooseUs,
   Testimonials,
   Faq,
-  Download,
+ 
   Footer,
 } from '../components';
 
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
       <ChooseUs />
       <Testimonials />
       <Faq />
-      <Download />
+      
       <Footer />
     </main>
   );

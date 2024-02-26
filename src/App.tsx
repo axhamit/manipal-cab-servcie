@@ -1,6 +1,6 @@
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 
-import { Models, TestimonialsPage, Team, Contact, Home, About } from './pages';
+import { Models, TestimonialsPage, Places, Contact, Home, About } from './pages';
 import { Navbar } from './components';
 
 import '../src/dist/styles.css';
@@ -14,7 +14,7 @@ const App: React.FC = () => {
         <Route path='about' element={<About />} />
         <Route path='models' element={<Models />} />
         <Route path='testimonials' element={<TestimonialsPage />} />
-        <Route path='team' element={<Team />} />
+        <Route path='places' element={<Places />} />
         <Route path='contact' element={<Contact />} />
       </Routes>
     </Router>

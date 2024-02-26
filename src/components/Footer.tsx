@@ -29,38 +29,37 @@ const Footer: React.FC = () => {
           </ul>
 
           <ul className='footer-content__2'>
-            <li>Empresa</li>
+            <li>COMPANY</li>
             <li>
-              <a href='#home'>Sobre Nós</a>
+              <a href='/about'>About Us</a>
             </li>
             <li>
-              <a href='#home'>Trabalhe Conosco</a>
+              <a href='#home'>Work with us</a>
             </li>
             <li>
-              <a href='#home'>Acessibilidade</a>
+              <a href='#home'>Accessibility</a>
             </li>
             <li>
-              <a href='#home'>Blog</a>
+              <a href='#home'>Places</a>
             </li>
           </ul>
 
           <ul className='footer-content__2'>
-            <li>Horários de Funcionamento</li>
-            <li>Seg - Sex: 8:00 - 18:00</li>
-            <li>Sab: 9:00 - 12:00</li>
-            <li>Dom: Fechado</li>
+            <li>OPENING HOURS</li>
+            <li>24 Hours</li>
+           
           </ul>
 
           <ul className='footer-content__2'>
-            <li>Receber Novidades</li>
+            <li>RECEIVE NEWS</li>
             <li>
-              <p>Insira seu E-mail para Receber Atualizações e Promoções.</p>
+              <p>Enter your Email to Receive Updates and Promotions.</p>
             </li>
             <li>
-              <input type='email' placeholder='Endereço de E-mail'></input>
+              <input type='email' placeholder='Enter Email'></input>
             </li>
             <li>
-              <button className='submit-email'>Inscrever</button>
+              <button className='submit-email'>Register</button>
             </li>
           </ul>
         </div>

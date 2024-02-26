@@ -8,8 +8,13 @@ import Person3 from '../images/team/3.jpg';
 import Person4 from '../images/team/4.jpg';
 import Person5 from '../images/team/5.jpg';
 import Person6 from '../images/team/6.jpg';
+import Person7 from '../images/team/6.jpg';
+import Person8 from '../images/team/6.jpg';
+import Person9 from '../images/team/6.jpg';
+import Person10 from '../images/team/6.jpg';
 
-const Team: React.FC = () => {
+
+const Places: React.FC = () => {
   interface TeamMember {
     img: string;
     name: string;
@@ -17,17 +22,24 @@ const Team: React.FC = () => {
   }
 
   const teamMember: TeamMember[] = [
-    { img: Person1, name: 'Carla Santos', job: 'Gerente Geral' },
+    { img: Person1, name: 'Karnataka', job: 'Gerente Geral' },
     { img: Person2, name: 'Rafael Costa', job: 'Gerente de Frota' },
     { img: Person3, name: 'Pedro Almeida', job: 'Gerente de Operações' },
     { img: Person4, name: 'Lucas Silva', job: 'Agente de Atendimento' },
     { img: Person5, name: 'Mariana Santos', job: 'Analista Financeiro' },
     { img: Person6, name: 'Ana Oliveira', job: 'Analista de Dados' },
+    { img: Person7, name: 'Ana Oliveira', job: 'Analista de Dados' },
+    { img: Person8, name: 'Ana Oliveira', job: 'Analista de Dados' },
+    { img: Person9, name: 'Ana Oliveira', job: 'Analista de Dados' },
+    { img: Person10, name: 'Ana Oliveira', job: 'Analista de Dados' },
+
+  
+
   ];
 
   return (
     <section className='team-page'>
-      <HeroPages name='Nossa Equipe' />
+      <HeroPages name='Places' />
       <div className='container'>
         <div className='team-container'>
           {teamMember.map((member, id) => (
@@ -48,7 +60,7 @@ const Team: React.FC = () => {
         <div className='book-banner__overlay'></div>
         <div className='container'>
           <div className='text-content'>
-            <h2>Entre em contato agora mesmo!</h2>
+            <h2>Contact now!</h2>
             <span>
               <IconPhone width={40} height={40} />
               <h3>(123) 456-7869</h3>
@@ -61,4 +73,4 @@ const Team: React.FC = () => {
   );
 };
 
-export default Team;
+export default Places;
