@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { IconMenu2, IconX, IconUser } from '@tabler/icons-react';
+import {IconPhoneCall } from '@tabler/icons-react';
 // import Logo from '../images/logo/logo.png';
 
 const Navbar: React.FC = () => {
@@ -35,7 +36,7 @@ const Navbar: React.FC = () => {
           <ul className='mobile-navbar__links'>
             <li>
               <IconUser />
-              <span>Entrar</span>
+              Book Now
             </li>
             <li>
               <Link onClick={openNav} to='/'>
@@ -49,22 +50,22 @@ const Navbar: React.FC = () => {
             </li>
             <li>
               <Link onClick={openNav} to='/models'>
-                Carros
+                Cars
               </Link>
             </li>
             <li>
               <Link onClick={openNav} to='/testimonials'>
-                Testemunhas
+              Witnesses
               </Link>
             </li>
             <li>
-              <Link onClick={openNav} to='/team'>
+              <Link onClick={openNav} to='/places'>
                 Equipe
               </Link>
             </li>
             <li>
               <Link onClick={openNav} to='/contact'>
-                Contato
+                Contact
               </Link>
             </li>
           </ul>
@@ -99,8 +100,8 @@ const Navbar: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link className='team-link' to='/team'>
-                Team
+              <Link className='team-link' to='/places'>
+                Places
               </Link>
             </li>
             <li>
@@ -110,12 +111,12 @@ const Navbar: React.FC = () => {
             </li>
           </ul>
           <div className='navbar__buttons'>
-            <Link className='navbar__buttons__sign-in' to='/'>
+            {/* <Link className='navbar__buttons__sign-in' to='/'>
               Enter
-            </Link>
-            <Link className='navbar__buttons__register' to='/'>
-              Register
-            </Link>
+            </Link> */}
+            <a  href="tel:+918105803440" className='navbar__buttons__register' >
+            <IconPhoneCall /> &nbsp;  BOOK NOW
+            </a>
           </div>
 
           {/* burger-menu */}
