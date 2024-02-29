@@ -10,12 +10,12 @@ import { IconCar, IconInfoCircleFilled, IconX } from "@tabler/icons-react";
 import { IconMapPinFilled } from "@tabler/icons-react";
 import { IconCalendarEvent } from "@tabler/icons-react";
 
-import ToyotaCamry from "../images/hero/etos.png";
-import ToyotaHilux from "../images/cars/toyota-hilux.png";
-import BmwX4 from "../images/cars/bmw-x4.png";
-import BmwX5 from "../images/cars/bmw-x5.png";
-import ChevroletOnix from "../images/cars/chevrolet-onix.png";
-import ChevroletSpin from "../images/cars/chevrolet-spin.png";
+import Etos from "../images/hero/etos.png";
+import ToyotaInnova from "../images/cars/innova.png";
+
+import ToyotaCrysta from "../images/cars/Crysta-1.png";
+import Swift from "../images/cars/swift.png";
+import Force from "../images/cars/Traveller.png";
 import FiatMobi from "../images/cars/fiat-mobi.png";
 import FiatUno from "../images/cars/fiat-uno.png";
 import VolkswagenGolf from "../images/cars/volkswagen-golf.png";
@@ -150,23 +150,23 @@ const BookCar: React.FC = () => {
   // based on value name show car img
   let imgUrl: string;
   switch (carImg) {
-    case "Toyota Camry":
-      imgUrl = ToyotaCamry;
+    case "Toyota ETIOS":
+      imgUrl = Etos;
       break;
-    case "Toyota Hilux":
-      imgUrl = ToyotaHilux;
+    case "Toyota Innova":
+      imgUrl = ToyotaInnova;
       break;
-    case "BMW X4 M40i":
-      imgUrl = BmwX4;
+    case "Toyota Innova Crysta":
+      imgUrl = ToyotaInnova;
       break;
-    case "BMW X5 Conversivel":
-      imgUrl = BmwX5;
+    case "Maruti suzuki Swift":
+      imgUrl = ToyotaCrysta;
       break;
-    case "Chevrolet Onix":
-      imgUrl = ChevroletOnix;
+    case "Force Traveller":
+      imgUrl = Swift;
       break;
     case "Chevrolet Spin":
-      imgUrl = ChevroletSpin;
+      imgUrl = Force;
       break;
     case "Fiat Mobi":
       imgUrl = FiatMobi;
@@ -224,19 +224,21 @@ const BookCar: React.FC = () => {
                     preferred model<b>*</b>
                   </label>
                   <select value={carType} onChange={handleCar}>
-                    <option>Escolha seu carro</option>
-                    <option value="Toyota Camry">Toyota Camry</option>
-                    <option value="Toyota Hilux">Toyota Hilux</option>
-                    <option value="BMW X4 M40i">BMW X4 M40i</option>
-                    <option value="BMW X5 Conversivel">
-                      BMW X5 Conversivel
+                    <option>Choose Your Car</option>
+                    <option value="Toyota ETIOS">Toyota ETIOS</option>
+                    <option value="Toyota Innova">Toyota Innova</option>
+                    <option value="Toyota Innova Crysta">
+                      Toyota Innova Crysta
                     </option>
-                    <option value="Chevrolet Onix">Chevrolet Onix</option>
-                    <option value="Chevrolet Spin">Chevrolet Spin</option>
+                    <option value="Maruti suzuki Swift">
+                      Maruti suzuki Swift
+                    </option>
+                    <option value="Force Traveller">Force Traveller</option>
+                    {/* <option value="Chevrolet Spin">Chevrolet Spin</option>
                     <option value="Fiat Mobi">Fiat Mobi</option>
                     <option value="Fiat Uno">Fiat Uno</option>
                     <option value="Volkswagen Golf">Volkswagen Golf</option>
-                    <option value="Volkswagen Beetle">Volkswagen Beetle</option>
+                    <option value="Volkswagen Beetle">Volkswagen Beetle</option> */}
                   </select>
                 </div>
 
@@ -246,12 +248,15 @@ const BookCar: React.FC = () => {
                     Collection location <b>*</b>
                   </label>
                   <select value={pickUp} onChange={handlePick}>
-                    <option>Onde você vai pegar?</option>
-                    <option>Maceió</option>
-                    <option>Recife</option>
-                    <option>Aracaju</option>
-                    <option>Salvador</option>
-                    <option>João Pessoa</option>
+                    <option>Where Are you Going to get it ?</option>
+                    <option>Hampi</option>
+                    <option>Mysore</option>
+                    <option>Madikeri</option>
+                    <option>Tirupati</option>
+                    <option>Belur And Halebidu</option>
+                    <option>kodekinal</option>
+                    <option>chikmangalore</option>
+                    <option>Horanadu</option>
                   </select>
                 </div>
 
@@ -261,12 +266,16 @@ const BookCar: React.FC = () => {
                     location <b>*</b>
                   </label>
                   <select value={dropOff} onChange={handleDrop}>
-                    <option>Onde vai entregar?</option>
-                    <option>Maceió</option>
-                    <option>Recife</option>
-                    <option>Aracaju</option>
-                    <option>Salvador</option>
-                    <option>João Pessoa</option>
+                    <option>Where Will You deliver ?</option>
+
+                    <option>Hampi</option>
+                    <option>Mysore</option>
+                    <option>Madikeri</option>
+                    <option>Tirupati</option>
+                    <option>Belur And Halebidu</option>
+                    <option>kodekinal</option>
+                    <option>chikmangalore</option>
+                    <option>Horanadu</option>
                   </select>
                 </div>
 

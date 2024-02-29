@@ -2,9 +2,9 @@ import { Footer, HeroPages } from '../components';
 
 import { IconPhone } from '@tabler/icons-react';
 
-import Person1 from '../images/team/1.jpg';
-import Person2 from '../images/team/2.jpg';
-import Person3 from '../images/team/3.jpg';
+import Hampi from '../images/team/hampi_1.jpg';
+import Mysore from '../images/team/mysore_2.jpg';
+import chikmaglur from '../images/team/chikmaglur.jpg';
 import Person4 from '../images/team/4.jpg';
 import Person5 from '../images/team/5.jpg';
 import Person6 from '../images/team/6.jpg';
@@ -22,9 +22,9 @@ const Places: React.FC = () => {
   }
 
   const teamMember: TeamMember[] = [
-    { img: Person1, name: 'Karnataka', job: 'Gerente Geral' },
-    { img: Person2, name: 'Rafael Costa', job: 'Gerente de Frota' },
-    { img: Person3, name: 'Pedro Almeida', job: 'Gerente de Operações' },
+    { img: Hampi, name: 'Hampi', job: 'One Of the best and oldest city in Karnataka' },
+    { img: Mysore, name: 'Mysore', job: 'City Of aramane' },
+    { img: chikmaglur, name: 'Chikmagalur', job: 'Gerente de Operações' },
     { img: Person4, name: 'Lucas Silva', job: 'Agente de Atendimento' },
     { img: Person5, name: 'Mariana Santos', job: 'Analista Financeiro' },
     { img: Person6, name: 'Ana Oliveira', job: 'Analista de Dados' },
