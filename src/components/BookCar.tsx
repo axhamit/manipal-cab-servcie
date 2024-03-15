@@ -245,7 +245,7 @@ const BookCar: React.FC = () => {
                 <div className="box-form__car-type">
                   <label>
                     <IconMapPinFilled className="input-icon" /> &nbsp;
-                    Collection location <b>*</b>
+                   PickUp location <b>*</b>
                   </label>
                   <select value={pickUp} onChange={handlePick}>
                     <option>Where Are you Going to get it ?</option>
@@ -262,7 +262,7 @@ const BookCar: React.FC = () => {
 
                 <div className="box-form__car-type">
                   <label>
-                    <IconMapPinFilled className="input-icon" /> &nbsp; Delivery
+                    <IconMapPinFilled className="input-icon" /> &nbsp; Drop
                     location <b>*</b>
                   </label>
                   <select value={dropOff} onChange={handleDrop}>
@@ -282,7 +282,7 @@ const BookCar: React.FC = () => {
                 <div className="box-form__car-time">
                   <label htmlFor="picktime">
                     <IconCalendarEvent className="input-icon" /> &nbsp;
-                    Collection Date <b>*</b>
+                    PickUp Date <b>*</b>
                   </label>
                   <input
                     id="picktime"
@@ -294,7 +294,7 @@ const BookCar: React.FC = () => {
 
                 <div className="box-form__car-time">
                   <label htmlFor="droptime">
-                    <IconCalendarEvent className="input-icon" /> &nbsp; Delivery
+                    <IconCalendarEvent className="input-icon" /> &nbsp; DropOut
                     date <b>*</b>
                   </label>
                   <input
