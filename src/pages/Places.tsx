@@ -63,7 +63,7 @@ const Places: React.FC = () => {
             <h2>Contact now!</h2>
             <span>
               <IconPhone width={40} height={40} />
-              <h3>(123) 456-7869</h3>
+              <h3>+91 8105803440</h3>
             </span>
           </div>
         </div>

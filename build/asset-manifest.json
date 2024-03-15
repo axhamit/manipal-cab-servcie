@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3943f34d.css",
-    "main.js": "/static/js/main.bd37ef23.js",
+    "main.js": "/static/js/main.d33f47e8.js",
     "static/media/Crysta-1.png": "/static/media/Crysta-1.83ac5c5b5960fc3a62c8.png",
     "static/media/chikmaglur.jpg": "/static/media/chikmaglur.2ee0011d1a5fd6683d1e.jpg",
     "static/media/swift.png": "/static/media/swift.b8ca9b28ad9bae7b2c46.png",
@@ -40,10 +40,10 @@
     "static/media/contact.png": "/static/media/contact.e1397f5b4f3889d16149.png",
     "index.html": "/index.html",
     "main.3943f34d.css.map": "/static/css/main.3943f34d.css.map",
-    "main.bd37ef23.js.map": "/static/js/main.bd37ef23.js.map"
+    "main.d33f47e8.js.map": "/static/js/main.d33f47e8.js.map"
   },
   "entrypoints": [
     "static/css/main.3943f34d.css",
-    "static/js/main.bd37ef23.js"
+    "static/js/main.d33f47e8.js"
   ]
 }
