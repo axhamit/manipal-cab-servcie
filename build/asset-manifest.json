@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3943f34d.css",
-    "main.js": "/static/js/main.bd37ef23.js",
+    "main.css": "/static/css/main.f145575a.css",
+    "main.js": "/static/js/main.8eb8135e.js",
     "static/media/Crysta-1.png": "/static/media/Crysta-1.83ac5c5b5960fc3a62c8.png",
     "static/media/chikmaglur.jpg": "/static/media/chikmaglur.2ee0011d1a5fd6683d1e.jpg",
     "static/media/swift.png": "/static/media/swift.b8ca9b28ad9bae7b2c46.png",
@@ -18,13 +18,10 @@
     "static/media/about-main.jpg": "/static/media/about-main.dda1bf916e7ebd5e5471.jpg",
     "static/media/etos.png": "/static/media/etos.b356462d9c875cc06169.png",
     "static/media/chevrolet-spin.png": "/static/media/chevrolet-spin.e2b5686c33f207de5c1a.png",
-    "static/media/6.jpg": "/static/media/6.8cecfe0b89fc0e2c1244.jpg",
     "static/media/toyota-hilux.png": "/static/media/toyota-hilux.28287214eb2f33a9809e.png",
     "static/media/fiat-uno.png": "/static/media/fiat-uno.484b5a5676011a97e8c0.png",
     "static/media/fiat-mobi.png": "/static/media/fiat-mobi.216dc44088fc32e777bf.png",
-    "static/media/4.jpg": "/static/media/4.485fe3d17baca10d4415.jpg",
     "static/media/volkswagen-new-beetle.png": "/static/media/volkswagen-new-beetle.ddc3b7014a46b4373629.png",
-    "static/media/5.jpg": "/static/media/5.e6ee37fae845edca895c.jpg",
     "static/media/car.png": "/static/media/car.a42b146d39b007476334.png",
     "static/media/volkswagen-golf.png": "/static/media/volkswagen-golf.d3ceb540f5350253d5c1.png",
     "static/media/chevrolet-onix.png": "/static/media/chevrolet-onix.30fd7acacef149b293ea.png",
@@ -39,11 +36,11 @@
     "static/media/bg-contact.png": "/static/media/bg-contact.c178c6db0f988d408d94.png",
     "static/media/contact.png": "/static/media/contact.e1397f5b4f3889d16149.png",
     "index.html": "/index.html",
-    "main.3943f34d.css.map": "/static/css/main.3943f34d.css.map",
-    "main.bd37ef23.js.map": "/static/js/main.bd37ef23.js.map"
+    "main.f145575a.css.map": "/static/css/main.f145575a.css.map",
+    "main.8eb8135e.js.map": "/static/js/main.8eb8135e.js.map"
   },
   "entrypoints": [
-    "static/css/main.3943f34d.css",
-    "static/js/main.bd37ef23.js"
+    "static/css/main.f145575a.css",
+    "static/js/main.8eb8135e.js"
   ]
 }
