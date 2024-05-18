@@ -25,13 +25,13 @@ const Places: React.FC = () => {
     { img: Hampi, name: 'Hampi', job: 'One Of the best and oldest city in Karnataka' },
     { img: Mysore, name: 'Mysore', job: 'City Of aramane' },
     { img: chikmaglur, name: 'Chikmagalur', job: 'Gerente de Operações' },
-    { img: Person4, name: 'Lucas Silva', job: 'Agente de Atendimento' },
-    { img: Person5, name: 'Mariana Santos', job: 'Analista Financeiro' },
-    { img: Person6, name: 'Ana Oliveira', job: 'Analista de Dados' },
-    { img: Person7, name: 'Ana Oliveira', job: 'Analista de Dados' },
-    { img: Person8, name: 'Ana Oliveira', job: 'Analista de Dados' },
-    { img: Person9, name: 'Ana Oliveira', job: 'Analista de Dados' },
-    { img: Person10, name: 'Ana Oliveira', job: 'Analista de Dados' },
+    // { img: Person4, name: 'Lucas Silva', job: 'Agente de Atendimento' },
+    // { img: Person5, name: 'Mariana Santos', job: 'Analista Financeiro' },
+    // { img: Person6, name: 'Ana Oliveira', job: 'Analista de Dados' },
+    // { img: Person7, name: 'Ana Oliveira', job: 'Analista de Dados' },
+    // { img: Person8, name: 'Ana Oliveira', job: 'Analista de Dados' },
+    // { img: Person9, name: 'Ana Oliveira', job: 'Analista de Dados' },
+    // { img: Person10, name: 'Ana Oliveira', job: 'Analista de Dados' },
 
   
 

@@ -1,51 +1,56 @@
-import { HeroPages, Footer } from '../components';
+import { HeroPages, Footer } from "../components";
 
-import { IconMail, IconMailOpened, IconPhone, IconLocation } from '@tabler/icons-react';
+import {
+  IconMail,
+  IconMailOpened,
+  IconPhone,
+  IconLocation,
+} from "@tabler/icons-react";
 
 const Contact: React.FC = () => {
   return (
-    <section className='contact-page'>
-      <HeroPages name='Contato' />
-      <div className='container'>
-        <div className='contact-div'>
-          <div className='contact-div__text'>
-            <h2>Fale conosco</h2>
+    <section className="contact-page">
+      <HeroPages name="Contact" />
+      <div className="container">
+        <div className="contact-div">
+          <div className="contact-div__text">
+            <h2>Contact Us</h2>
             <p>
-              Estamos aqui para tornar seu aluguel de carros fácil e conveniente. Entre em contato
-              conosco para reservas, assistência ou qualquer dúvida que você possa ter. Nossa equipe
-              dedicada está pronta para ajudar!
+              We are here to make your car rental easy and convenient. Contact
+              us for reservations, assistance, or any questions you may have.
+              Our dedicated team is ready to help!
             </p>
-            <a href='/'>
-              <IconPhone /> &nbsp; (123) 456-7869
+            <a href="/">
+              <IconPhone /> &nbsp;   +918105803440
             </a>
-            <a href='/'>
+            <a href="/">
               <IconMail /> &nbsp; email@exemplo.com
             </a>
-            <a href='/'>
+            <a href="/">
               <IconLocation />
-              &nbsp; São Paulo, SP
+              &nbsp; Manipal, udupi
             </a>
           </div>
-          <div className='contact-div__form'>
+          <div className="contact-div__form">
             <form>
               <label>
-                Nome Completo <b>*</b>
+                Full Name <b>*</b>
               </label>
-              <input type='text' placeholder='Nome Completo'></input>
+              <input type="text" placeholder="Full Name"></input>
 
               <label>
-                Endereço de Email <b>*</b>
+                Enter your Email <b>*</b>
               </label>
-              <input type='email' placeholder='seuemail@exemplo.com'></input>
+              <input type="email" placeholder="seuemail@exemplo.com"></input>
 
               <label>
-                Sua mensagem <b>*</b>
+                Send Message <b>*</b>
               </label>
-              <textarea placeholder='Escreva sua dúvida aqui...'></textarea>
+              <textarea placeholder="Write your question here..."></textarea>
 
-              <button type='submit'>
+              <button type="submit">
                 <IconMailOpened />
-                &nbsp; Enviar
+                &nbsp; Submit
               </button>
             </form>
           </div>

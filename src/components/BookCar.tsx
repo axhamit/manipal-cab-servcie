@@ -458,7 +458,7 @@ const BookCar: React.FC = () => {
                   value={email}
                   onChange={handleEmail}
                   type="email"
-                  placeholder="Seu endereço de email"
+                  placeholder="Seu Enter your Email"
                 ></input>
                 <p className="error-modal">Campo obrigatório.</p>
               </span>

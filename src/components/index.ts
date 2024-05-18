@@ -1,3 +1,4 @@
+export {default as Popup } from  "./popup/Popup"
 export { default as Banner } from './Banner';
 export { default as BookCar } from './BookCar';
 export { default as CarBox } from './CarBox';
