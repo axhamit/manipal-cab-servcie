@@ -51,7 +51,7 @@
   
   .griddiv {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 40% 50%;
     gap: 20px;
   }
   

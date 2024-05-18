@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import ToyotaCamry from "../../images/hero/etos.png";
 import Styles from "./popup.module.css";
 import { IoCloseCircle } from "react-icons/io5";
-import { FaWhatsapp } from "react-icons/fa";
+
 
 
 
