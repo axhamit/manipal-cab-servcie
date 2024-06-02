@@ -5,12 +5,13 @@ import {
   PickCar,
   Banner,
   ChooseUs,
-  Testimonials,
+  // Testimonials,
   Faq,
 
   Footer,
   Popup,
 } from '../components';
+import WhatsAppIcon from '../components/whatsup/WhatsAppIcon';
 
 const Home: React.FC = () => {
   return (
@@ -22,6 +23,7 @@ const Home: React.FC = () => {
       <PickCar />
       <Banner />
       <ChooseUs />
+      <WhatsAppIcon/>
       {/* <Testimonials /> */}
       <Faq />
       
