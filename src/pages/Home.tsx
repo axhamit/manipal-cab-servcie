@@ -5,7 +5,7 @@ import {
   PickCar,
   Banner,
   ChooseUs,
-  Testimonials,
+  // Testimonials,
   Faq,
 
   Footer,

@@ -27,7 +27,6 @@
     "eject": "react-scripts eject",
     "gulp-sass": "gulp sass",
     "gulp-watch": "gulp sass:watch"
-
   },
   "eslintConfig": {
     "extends": [
@@ -55,6 +54,6 @@
     "gulp": "^5.0.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.69.7",
-    "typescript": "^4.9.5"
+    "typescript": "^3.4.5"
   }
 }
