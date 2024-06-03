@@ -1,18 +1,9 @@
-import {
-  ChangeEvent,
-  MouseEvent,
-  SyntheticEvent,
-  useEffect,
-  useState,
-} from "react";
-
+import React, { ChangeEvent, MouseEvent, SyntheticEvent, useEffect, useState } from "react";
 import { IconCar, IconInfoCircleFilled, IconX } from "@tabler/icons-react";
 import { IconMapPinFilled } from "@tabler/icons-react";
 import { IconCalendarEvent } from "@tabler/icons-react";
-
 import Etos from "../images/hero/etos.png";
 import ToyotaInnova from "../images/cars/innova.png";
-
 import ToyotaCrysta from "../images/cars/Crysta-1.png";
 import Swift from "../images/cars/swift.png";
 import Force from "../images/cars/Traveller.png";
@@ -23,14 +14,12 @@ import VolkswagenBeetle from "../images/cars/volkswagen-new-beetle.png";
 
 const BookCar: React.FC = () => {
   const [modal, setModal] = useState<boolean>(false);
-
   const [carType, setCarType] = useState<string>("");
   const [pickUp, setPickUp] = useState<string>("");
   const [dropOff, setDropOff] = useState<string>("");
   const [pickTime, setPickTime] = useState<string>("");
   const [dropTime, setDropTime] = useState<string>("");
   const [carImg, setCarImg] = useState<string>("");
-
   const [name, setName] = useState<string>("");
   const [lastName, setLastName] = useState<string>("");
   const [phone, setPhone] = useState<string>("");
@@ -72,37 +61,28 @@ const BookCar: React.FC = () => {
     setZipCode(e.target.value);
   };
 
-  // prevents the default action of the event, checks for empty values in specific variables,
-  // displays an error message if any required field is empty, otherwise toggles the modal visibility,
-  // scrolls the booking modal to the top, and hides the error message if present.
   const openModal = (e: SyntheticEvent): void => {
     e.preventDefault();
-
-    const errorMsg = document.querySelector(
-      ".error-message"
-    ) as HTMLElement | null;
-
+    // Check for empty values in specific variables and display an error message if any required field is empty
     if (!pickUp || !dropOff || !pickTime || !dropTime || !carType) {
+      const errorMsg = document.querySelector(".error-message") as HTMLElement | null;
       if (errorMsg) {
         errorMsg.style.display = "flex";
       }
     } else {
       setModal(!modal);
-
-      const modalDiv = document.querySelector(
-        ".booking-modal"
-      ) as HTMLElement | null;
+      const modalDiv = document.querySelector(".booking-modal") as HTMLElement | null;
       if (modalDiv) {
         modalDiv.scroll(0, 0);
       }
-
+      // Hide the error message if present
+      const errorMsg = document.querySelector(".error-message") as HTMLElement | null;
       if (errorMsg) {
         errorMsg.style.display = "none";
       }
     }
   };
 
-  // disable page scroll when modal is displayed
   useEffect(() => {
     if (modal === true) {
       document.body.style.overflow = "hidden";
@@ -111,20 +91,16 @@ const BookCar: React.FC = () => {
     }
   }, [modal]);
 
-  // confirm modal booking
   const confirmBooking = (e: MouseEvent<HTMLButtonElement>): void => {
     e.preventDefault();
     setModal(!modal);
-
-    const doneMsg = document.querySelector(
-      ".booking-done"
-    ) as HTMLElement | null;
+    // Show confirmation message
+    const doneMsg = document.querySelector(".booking-done") as HTMLElement | null;
     if (doneMsg) {
       doneMsg.style.display = "flex";
     }
   };
 
-  // taking value of booking inputs
   const handleCar = (e: ChangeEvent<HTMLSelectElement>): void => {
     const value = e.target.value;
     setCarType(value);
@@ -147,7 +123,6 @@ const BookCar: React.FC = () => {
     setDropTime(e.target.value);
   };
 
-  // based on value name show car img
   let imgUrl: string;
   switch (carImg) {
     case "Toyota ETIOS":
@@ -184,11 +159,8 @@ const BookCar: React.FC = () => {
       imgUrl = "";
   }
 
-  // hide message
   const hideMessage = (): void => {
-    const doneMsg = document.querySelector(
-      ".booking-done"
-    ) as HTMLElement | null;
+    const doneMsg = document.querySelector(".booking-done") as HTMLElement | null;
     if (doneMsg) {
       doneMsg.style.display = "none";
     }

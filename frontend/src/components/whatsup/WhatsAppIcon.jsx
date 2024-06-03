@@ -3,7 +3,7 @@ import React from 'react';
 const WhatsAppIcon = () => {
   const bookBtn = () => {
     // Use your WhatsApp number and message
-    const phoneNumber = '8105803440'; // Replace with your WhatsApp number
+    const phoneNumber = '+918105803440'; // Replace with your WhatsApp number
     const message = 'Hello, I am interested in booking a Car.';
 
     // Create the WhatsApp API link
