@@ -16,7 +16,7 @@ const WhatsAppIcon = () => {
   return (
     <div style={{
       position: 'fixed',
-      bottom: '150px',
+      bottom: '150px ',
       right: '100px',
       cursor: 'pointer',
     
