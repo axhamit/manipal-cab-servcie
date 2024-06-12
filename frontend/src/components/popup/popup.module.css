@@ -15,7 +15,7 @@
     overflow: hidden;
     animation: popupAnimation 0.5s ease-out;
     max-width: 90%;
-    box-sizing: border-box;
+    box-sizing: border-box ;
   }
   
   @keyframes popupAnimation {
