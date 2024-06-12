@@ -4,7 +4,7 @@
     left: 50%;
     transform: translate(-50%, -50%) perspective(100px) rotateX(0deg) rotateY(1deg);
     padding: 20px;
-    background-color: white;
+    background-color: #fff;
     border: 1px solid #ccc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
     z-index: 1000;
